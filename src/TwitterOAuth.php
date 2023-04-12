@@ -8,9 +8,9 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace ShinyaSakurai\TwitterOAuth;
 
-use Abraham\TwitterOAuth\Util\JsonDecoder;
+use ShinyaSakurai\TwitterOAuth\Util\JsonDecoder;
 use Composer\CaBundle\CaBundle;
 
 /**

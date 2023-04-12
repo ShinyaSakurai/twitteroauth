@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth;
+namespace ShinyaSakurai\TwitterOAuth;
 
 /**
  * The result of the most recent API request.

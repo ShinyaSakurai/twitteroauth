@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth\Tests;
+namespace ShinyaSakurai\TwitterOAuth\Tests;
 
-use Abraham\TwitterOAuth\HmacSha1;
+use ShinyaSakurai\TwitterOAuth\HmacSha1;
 
 class HmacSha1Test extends AbstractSignatureMethodTest
 {

@@ -6,10 +6,10 @@
 
 declare(strict_types=1);
 
-namespace Abraham\TwitterOAuth\Test;
+namespace ShinyaSakurai\TwitterOAuth\Test;
 
 use PHPUnit\Framework\TestCase;
-use Abraham\TwitterOAuth\TwitterOAuth;
+use ShinyaSakurai\TwitterOAuth\TwitterOAuth;
 
 class TwitterOAuthTest extends TestCase
 {
@@ -121,7 +121,7 @@ class TwitterOAuthTest extends TestCase
     public function testOauthRequestTokenException()
     {
         $this->expectException(
-            \Abraham\TwitterOAuth\TwitterOAuthException::class
+            \ShinyaSakurai\TwitterOAuth\TwitterOAuthException::class
         );
         $this->expectErrorMessage('Could not authenticate you');
         $twitter = new TwitterOAuth('CONSUMER_KEY', 'CONSUMER_SECRET');
@@ -138,7 +138,7 @@ class TwitterOAuthTest extends TestCase
     {
         // Can't test this without a browser logging into Twitter so check for the correct error instead.
         $this->expectException(
-            \Abraham\TwitterOAuth\TwitterOAuthException::class
+            \ShinyaSakurai\TwitterOAuth\TwitterOAuthException::class
         );
         $this->expectErrorMessage('Invalid oauth_verifier parameter');
         $twitter = new TwitterOAuth(

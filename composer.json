@@ -49,7 +49,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Abraham\\TwitterOAuth\\": "src"
+      "ShinyaSakurai\\TwitterOAuth\\": "src"
     }
   }
 }
